@@ -48,6 +48,7 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Column(
         children: [
           Text("Calculate Change", style: TextStyle(fontFamily: 'maaja', fontSize: 48, fontWeight: FontWeight.bold, color: Colors.deepPurple, backgroundColor: Colors.blue),),
+          SizedBox(height: 16),
           Image.asset("assets/2.png", height: 200,),
            priceTextField(),
           
