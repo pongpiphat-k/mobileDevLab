@@ -50,7 +50,11 @@ class _MyHomePageState extends State<MyHomePage> {
           Text("Calculate Change", style: TextStyle(fontFamily: 'maaja', fontSize: 48, fontWeight: FontWeight.bold, color: Colors.deepPurple, backgroundColor: Colors.blue),),
           SizedBox(height: 16),
           Image.asset("assets/2.png", height: 200,),
+          SizedBox(height: 16), 
+          Image.network( "https://smartoffice.camt.cmu.ac.th/v1r/img/camt_logo.png", height: 100,),
            priceTextField(),
+           
+           
           
           Padding(
             padding: const EdgeInsets.all(16.0),
