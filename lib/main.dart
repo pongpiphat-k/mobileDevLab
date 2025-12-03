@@ -49,13 +49,13 @@ class _MyHomePageState extends State<MyHomePage> {
         children: [
           Text("Calculate Change", style: TextStyle(fontFamily: 'maaja', fontSize: 48, fontWeight: FontWeight.bold, color: Colors.deepPurple, backgroundColor: Colors.blue),),
           SizedBox(height: 16),
-          Image.asset("assets/2.png", height: 200,),
+          Image.asset("assets/2.png", height: 100,),
           SizedBox(height: 16), 
-          Image.network( "https://smartoffice.camt.cmu.ac.th/v1r/img/camt_logo.png", height: 100,),
+          Image.network("https://plus.unsplash.com/premium_vector-1711987786379-aeea5e7e935e?q=80&w=1591&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", height: 100),
            priceTextField(),
-           
-           
-          
+
+
+
           Padding(
             padding: const EdgeInsets.all(16.0),
             child: amountTextField(),
