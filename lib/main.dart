@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       title: 'Kong shop',
       theme: ThemeData(
 
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        colorScheme: ColorScheme.fromSeed(seedColor: const Color.fromARGB(255, 41, 140, 233)),
       ),
       home: const MyHomePage(title: 'Calculate Change'),
     );
@@ -41,7 +41,8 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(widget.title),
+         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
+        title: Text("Calculator Application"),
       ),
       body: 
       tabs[_currentIndex], bottomNavigationBar: BottomNavigationBar(currentIndex: _currentIndex, 
