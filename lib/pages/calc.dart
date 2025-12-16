@@ -25,26 +25,25 @@ class _CalculatePageState extends State<CalculatePage> {
       body: Column(
         children: [
           Text("Calculate Change", style: TextStyle(fontFamily: 'maaja', fontSize: 48, fontWeight: FontWeight.bold, color: Colors.deepPurple, backgroundColor: Colors.blue),),
-          SizedBox(height: 16),
-          Image.asset("assets/2.png", height: 100,),
-          SizedBox(height: 16), 
-          Image.network("https://plus.unsplash.com/premium_vector-1711987786379-aeea5e7e935e?q=80&w=1591&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", height: 100),
+          SizedBox(height: 8),
+          Image.asset("assets/2.png", height: 50,),
+          SizedBox(height: 8), 
+          Image.network("https://plus.unsplash.com/premium_vector-1711987786379-aeea5e7e935e?q=80&w=1591&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", height: 50),
            priceTextField(),
 
 
 
           Padding(
-            padding: const EdgeInsets.all(16.0),
+            padding: const EdgeInsets.all(8.0),
             child: amountTextField(),
           ),
-          SizedBox(height: 16),
           calculateButton(),
           showTotalText(),
           Padding(
-            padding: const EdgeInsets.all(16.0),
+            padding: const EdgeInsets.all(8.0),
             child: receiveMoneyTextField(),
           ),
-          SizedBox(height: 16),
+          SizedBox(height: 8),
           changeCalculateButton(),
           showChangeText(),
         ],
@@ -52,10 +51,10 @@ class _CalculatePageState extends State<CalculatePage> {
       // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
-  
+
   Widget priceTextField() {
     return Padding(
-    padding: const EdgeInsets.all(16.0),
+    padding: const EdgeInsets.all(8.0),
     child:  TextField(
       controller: price,
       decoration: InputDecoration(
@@ -79,7 +78,7 @@ class _CalculatePageState extends State<CalculatePage> {
 
    Widget calculateButton() {
     return Padding(
-    padding: const EdgeInsets.all(16.0),
+    padding: const EdgeInsets.all(8.0),
     child: ElevatedButton(
       onPressed: () {
         if (price.text.isNotEmpty && amount.text.isNotEmpty) {
@@ -111,7 +110,7 @@ class _CalculatePageState extends State<CalculatePage> {
    Widget changeCalculateButton() {
     // return ElevatedButton(onPressed: () {}, child: Text("Calculate Change"));
     return Padding(
-    padding: const EdgeInsets.all(16.0),
+    padding: const EdgeInsets.all(4.0),
     child: ElevatedButton(
       onPressed: () {
         if (change.text.isNotEmpty) {
