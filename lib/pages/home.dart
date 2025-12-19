@@ -12,8 +12,22 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return ListView(
       children: [
-        Center(child: Text("Home Page"),)
+          MyBox(),
+          SizedBox(height: 24,),
+          MyBox(),
+          SizedBox(height: 24,),
+          MyBox(),
+          SizedBox(height: 24,),
       ],
+    );
+  }
+
+  Widget MyBox() {
+    return Container(
+      child: Column(children: [
+        Text("What is a computer", style: TextStyle(fontSize: 25),),
+        Text("Computer is a things to calculate and for any other works", style: TextStyle(fontSize: 15),)
+      ],),
     );
   }
 }
