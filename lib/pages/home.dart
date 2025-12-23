@@ -62,8 +62,7 @@ class _HomePageState extends State<HomePage> {
           Navigator.push(context, MaterialPageRoute(builder: (context)=> DetailsPage()));
         },
         style: TextButton.styleFrom(
-          foregroundColor: Colors.white,
-          backgroundColor: Colors.blueAccent
+          foregroundColor: Colors.blue,
           ), child: Text("read more"),
         )
         
