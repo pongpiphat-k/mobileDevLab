@@ -1,0 +1,20 @@
+[
+    {
+        "title" : "What is a computer?",
+        "subtitle" : "Computer is a things to calculate and for any other works",
+        "image_url" : "https://cdn.pixabay.com/photo/2023/11/18/18/20/christmas-8396941_1280.png",
+        "detail" : "A computer is an electronic device that manipulates information or data. It has the ability to store, retrieve, and process data. You can use a computer to type documents, send email, play games, browse the web, and much more." 
+    },
+     {
+        "title" : "What is a Flutter?",
+        "subtitle" : "Flutter is a tool to create mobile applications",
+        "image_url" : "https://miro.medium.com/v2/resize:fit:1400/format:webp/0*tHNo-dGBgh8vPwy7.png",
+        "detail" : "Flutter is an open-source UI software development toolkit created by Google. It is used to develop cross platform applications for Android, iOS, Linux, Mac, Windows, Google Fuchsia, and the web from a single codebase."
+    },
+     {
+        "title" : "What is a Dart?",
+        "subtitle" : "Dart is a programming language used in Flutter",
+        "image_url" : "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*UofordZ0uWE2Tkh04PsFRw.png",
+        "detail" : "Dart is a client-optimized programming language for apps on multiple platforms. It is developed by Google and is used to build mobile, desktop, server, and web applications. Dart is the programming language used to code Flutter applications."
+    }
+]

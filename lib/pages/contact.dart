@@ -51,7 +51,6 @@ class _ContactPageState extends State<ContactPage> {
           leading: FlutterLogo(),
            title: Text(mydata[index]),
            onTap: () {
-            Navigator.push(context, MaterialPageRoute(builder: (context) => const DetailsPage()));
            },
         );
       },
